@@ -2,6 +2,8 @@ import React from "react";
 import logan1 from "../assets/fleet/logan1.jpg";
 import logan2 from "../assets/fleet/logan2.jpg";
 import logan3 from "../assets/fleet/logan3.jpg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 const cars = [
   {
@@ -29,12 +31,32 @@ export default function Fleet() {
     <section id="fleet" className="h-full bg-[#f1f1f1] py-8">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center">
-          <h2 className="text-4xl">Flota noastra</h2>
-          <p className="text-lg tracking-wide text-tertiary">Oferim spre inchiriere</p>
+          <motion.h2
+            variants={fadeIn("up", "tween", 0.2, 1.1)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="text-4xl">
+            Flota noastra
+          </motion.h2>
+          <motion.p
+            variants={fadeIn("up", "tween", 0.4, 1.1)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="text-lg tracking-wide text-tertiary">
+            Oferim spre inchiriere
+          </motion.p>
         </div>
         <div className="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
           {cars.map((car, index) => (
-            <div key={index} className="flex flex-col justify-center items-center rounded-md shadow bg-white  py-6">
+            <motion.div
+              variants={fadeIn("up", "tween", 0.6, 1.1)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
+              key={index}
+              className="flex flex-col justify-center items-center rounded-md shadow bg-white  py-6">
               <div>
                 <img src={car.img} alt="" />
               </div>
@@ -50,7 +72,7 @@ export default function Fleet() {
                   Rezerva acum
                 </a>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
