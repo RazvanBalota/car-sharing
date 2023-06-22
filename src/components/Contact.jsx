@@ -4,7 +4,7 @@ import { BsTelephone } from "react-icons/bs";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-12 lg:py-24 bg-about contactbg">
+    <section id="contact" className="py-12 lg:py-24 bg-about contactbg lg:bg-fixed">
       <div className="container mx-auto">
         <div className="flex flex-col justify-center items-center">
           <div>

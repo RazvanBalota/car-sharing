@@ -3,7 +3,7 @@ import aboutimg from "../assets/aboutimg.jpg";
 
 export default function About() {
   return (
-    <section id="about" className=" bg-about aboutbg">
+    <section id="about" className=" bg-about aboutbg lg:bg-fixed">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row  ">
           <div className="flex flex-1">

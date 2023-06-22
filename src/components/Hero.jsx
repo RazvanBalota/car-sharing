@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
-    <section id="home" className="h-screen lg:pt-64 flex items-center lg:items-start herobg">
+    <section id="home" className="h-screen lg:pt-64 flex items-center lg:items-start herobg lg:bg-fixed">
       <div className="container mx-auto">
         <div>
           <h2>RIDE SHARING ORADEA</h2>
