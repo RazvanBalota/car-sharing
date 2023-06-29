@@ -2,6 +2,8 @@
 
 This project is a landing page built with React, Tailwind CSS, and Framer Motion.
 
+The live website is available <a href="https://car-sharing-oradea.netlify.app/" target="_blank">here</a>.
+
 ## Description
 
 The landing page showcases a visually appealing design with interactive animations created using Framer Motion. It aims
