@@ -53,7 +53,7 @@ export default function Offers() {
                 whileInView={"show"}
                 viewport={{ once: true }}
                 key={index}
-                className="flex flex-col flex-1 card-shadow pb-8 ">
+                className="flex flex-col flex-1 card-shadow pb-8">
                 <div>
                   <img src={item.img} alt="" className="h-[300px] w-full" />
                 </div>

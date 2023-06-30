@@ -10,16 +10,16 @@ export default function Header() {
         <div className="flex justify-between items-center ">
           <div className="flex">
             <a
-              href="mailto:razvik42@gmail.com"
+              href="mailto:brs.transport@yahoo.com"
               className="flex gap-x-2 text-primary font-bold tracking-wide px-5 py-4 text-sm cursor-pointer hover:text-secondary transition-all duration-150">
               <AiOutlineMail size={20} />
-              <span> email@gmail.com</span>
+              <span> brs.transport@yahoo.com</span>
             </a>
             <a
-              href="tel:+40742933714"
+              href="tel:+40754424285"
               className="flex gap-x-2 text-primary font-bold tracking-wide px-5 py-4 text-sm cursor-pointer hover:text-secondary transition-all duration-150">
               <BsTelephone size={20} />
-              <span>+ 0742 933 714</span>
+              <span>+ 0754 424 285</span>
             </a>
           </div>
           <div>

@@ -22,15 +22,17 @@ export default function Contact() {
               <div className="flex items-center gap-x-2">
                 <BsTelephone size={25} className="text-accent" />
                 <p className="text-xl text-primary">Numar de telefon:</p>
-                <a href="tel:+40742933714" className="text-xl text-accent hover:scale-105 transition duration-150">
-                  + 0742 933 714
+                <a href="tel:+40754424285" className="text-xl text-accent hover:scale-105 transition duration-150">
+                  + 0754 424 285
                 </a>
               </div>
               <div className="flex items-center gap-x-2">
                 <AiOutlineMail size={25} className="text-accent" />
                 <p className="text-xl text-primary">Email:</p>
-                <a href="mailto:mail@gmail.com" className="text-xl text-accent hover:scale-105 transition duration-150">
-                  mail@gmail.com
+                <a
+                  href="mailto:brs.transport@yahoo.com"
+                  className="text-xl text-accent hover:scale-105 transition duration-150">
+                  brs.transport@yahoo.com
                 </a>
               </div>
             </div>

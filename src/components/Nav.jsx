@@ -85,7 +85,7 @@ export default function Nav() {
       variants={headerVariants}
       initial="hidden"
       animate={isTop ? "show" : ""}
-      className="h-[100px] w-full z-[999] fixed flex items-center "
+      className="h-[80px] w-full z-[999] fixed flex items-center "
       aria-label="In-page jump links">
       <div className="container mx-auto">
         <div className="pt-4 flex items-center justify-between">
@@ -98,7 +98,7 @@ export default function Nav() {
             {navlinks.map((link, index) => (
               <Link
                 to={link.to}
-                offset={-100}
+                offset={-80}
                 key={index}
                 className={`text-md  ml-6 tracking-wide hover:text-accent hover:border-b-[1px] hover:border-accent transition-all duration-150 cursor-pointer ${
                   active === index ? "text-accent border-b-[1px] border-accent" : "text-primary"
