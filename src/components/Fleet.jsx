@@ -10,7 +10,7 @@ const cars = [
     brand: "Dacia Sandero Stepway 0.9 TCE",
     year: "2015",
     price: "450",
-    img: logan1,
+    img: logan3,
   },
   {
     brand: "Dacia Sandero Stepway 0.9 TCE",
@@ -22,7 +22,7 @@ const cars = [
     brand: "Dacia Logan MCV 1.0",
     year: "2018",
     price: "500",
-    img: logan3,
+    img: logan1,
   },
 ];
 
